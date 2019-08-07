@@ -114,6 +114,16 @@ body {
       z-index: -1;
       background: rgba(68, 68, 68, 0.8); }
 
+.portrait {
+  background-size: cover;
+  width: 410px;
+  height: 410px;
+  background: url("../img/portret6.jpg");
+  border-radius: 50%;
+  border: solid 3px #eece1a;
+  margin-top: 2vh;
+  margin-left: 68vh; }
+
 h1, h2, h3 {
   margin: 0;
   font-weight: 250; }
@@ -141,9 +151,8 @@ main {
   padding: 4rem;
   min-height: calc( 100vh - 60px); }
   main .icons {
-    margin-top: 29rem;
-    text-align: right;
-    padding-left: 80%; }
+    margin-top: 2.9rem;
+    text-align: right; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
