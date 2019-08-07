@@ -116,9 +116,9 @@ body {
 
 .portrait {
   background-size: cover;
-  width: 24rem;
-  height: 24rem;
-  background: url("../img/portret6.jpg");
+  width: 20rem;
+  height: 20rem;
+  background: url("../img/portret7.jpg");
   border-radius: 3%;
   border: solid 3px #eece1a;
   margin-top: 1%;
@@ -198,11 +198,10 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-gap: 1rem; }
   .projects img {
-    height: 30vh;
-    width: 45vh;
+    height: 18rem;
+    width: 27rem;
     border: 4px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -210,9 +209,8 @@ main {
       transition: all 1s ease-out; }
 
 .btn, .btn-dark, .btn-light {
-  display: relative;
-  padding: 0.5rem 5.2rem;
-  border: 100px;
+  padding: 2.4% 18.6%;
+  border: 10%;
   margin-bottom: 0.3rem;
   font-size: 1.2vh; }
   .btnhover {
